@@ -8,7 +8,8 @@ li {
   list-style-type: none;
 }
 
-@media only screen and (max-width: 420px) {
+@media screen and (max-width: 430px) {
+
   @font-face {
       font-family: 'sonder_slabblack_rough';
       src: url('sonderslab-blackrough-webfont.woff2') format('woff2');
