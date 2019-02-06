@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 380px) {
+  @font-face {
+      font-family: 'sonder_slabblack_rough';
+      src: url('sonderslab-blackrough-webfont.woff2') format('woff2'),
+           url('sonderslab-blackrough-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
+
+  body {
+    background-color: #F3C400;
+    color: white;
+  }
+
+  .hero {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 50vh;
+    background-image: url('img/hero_2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+  }
+
+  h1 {
+    font-family: 'sonder_slabblack_rough';
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 20vh;
+  }
+
+  .sub-title {
+    text-align: center;
+    font-family: 'sonder_slabblack_rough';
+    font-size: 15px;
+  }
+
+  .fast-facts {
+    margin: 30px 20px;
+
+  }
+
+  .our-story {
+    background-color: lightgray;
+    color: black;
+  }
+}
