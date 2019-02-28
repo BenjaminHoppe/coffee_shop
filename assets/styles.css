@@ -286,6 +286,18 @@ li {
   footer {
     width: 100%;
     height: 200px;
+    position: relative;
+  }
+
+  .socialIcons {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   margin: 0 auto;
+  }
+
+  .socialIcons > li {
+    padding: 0 5px;
   }
 
 
